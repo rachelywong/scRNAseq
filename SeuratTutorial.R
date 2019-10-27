@@ -189,4 +189,4 @@ pbmc <- RenameIdents(pbmc, new.cluster.ids)
 DimPlot(pbmc, reduction = "umap", label = TRUE, pt.size = 0.5) + NoLegend()
 # may need to change cluster IDs, cluster IDs used do not match dataset
 # cluster IDs from Seurat tutorial, not sure which IDs to use
-
+ 
